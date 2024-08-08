@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node index.js",
     "start_azure_debug": "if [[ ${APPSVC_TUNNEL_PORT} != \"\" ]]; then node --inspect=0.0.0.0:$APPSVC_TUNNEL_PORT index.js; else npm run start; fi",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step'"
   },
   "author": "",
   "license": "ISC"
